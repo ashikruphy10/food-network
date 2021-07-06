@@ -1,8 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 p{
     font-size: 15px;
@@ -10,7 +14,7 @@ p{
 .orange-color{
     color: orange;
 }
-section{
+.flexiable-containar{
     display: flex;
 }
 .half-width{
@@ -31,7 +35,7 @@ section{
     border-radius: 15px;
     
 }
-#gray1{
+.gray1{
     color: gray;
 }
 .second-section{
@@ -43,4 +47,68 @@ section{
 }
 #picpo1{
     margin-right: 35%;
+}
+#grayw{
+    color: gray;
+    text-align: center;
+}
+.width{
+    width: 50%;
+    padding: 5%;
+    margin-right: 10px;
+    
+}
+.width img{
+    width: 100%;
+}
+.s3{
+    text-align: center;
+}
+.box{
+    justify-content: space-around;
+}
+.add-co{
+    font-weight: bolder;
+    font-style: initial;
+}
+.same-line{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.bod{
+    border-radius: 10px;
+    border: 5px solid white;
+    padding-right: 80px;
+}
+.bodr{
+    border-radius: 20px;
+    border: 10px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+.boss{
+    border: 10px solid white;
+}
+.back{
+    border-radius: 5px;
+    border: 5px solid white;
+}
+.rex{
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    border: 5px solid white;
+}
+#h01{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+#black-color{
+    background-color: black; 
+    height: 20em;
 }
